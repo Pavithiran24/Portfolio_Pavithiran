@@ -57,7 +57,7 @@ function App() {
               <a className="btn primary" href="#about">
                 Explore Portfolio
               </a>
-              <a className="btn ghost" href="/PavithiranCV--.pdf" download>
+              <a className="btn ghost" href={`${import.meta.env.BASE_URL}PavithiranCV--.pdf`} download="PavithiranCV.pdf">
                 Download CV
               </a>
             </div>
